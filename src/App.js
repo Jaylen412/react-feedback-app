@@ -1,11 +1,13 @@
 import React from "react";
+import Header from "./componets/header/Header";
 
 function App() {
   return (
     <div>
-      {console.log("Here 1")}
-      <h1>Feedback App</h1>
-      {console.log("Here 2")}
+      <Header text="Feedback UI" />
+      <div>
+        <h1>My App</h1>
+      </div>
     </div>
   );
 }
